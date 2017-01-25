@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+<meta charset="UTF-8"/>
+
+<title>Sir's website</title>
+
+<meta name="author" content="Akash & Rishabh">
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+<!css files>
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<!fonts>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<div class="banner row" id="banner">		
+		<div class="parallax text-center" style="background-color: #984b43 ; ">  <!for image theme.css>
+			<div class="parallax-pattern-overlay">  <!for filter>
+				<div class="container text-center" style="height:300px;padding-top:50px;">    <!--bootstrap.css-->
+					<a href="#"><img id="site-title"  src="img/IISc_logo.png" alt="logo" class="img-rounded" width="100" height="100"/></a>
+<!-- wow-data-delay="0.0s" wow-data-duration="0.9s"-->
+					<p class="intro1" >M.H. BALA SUBRAHMANYA</p>
+					<p class="intro2" >Professor,  Management Studies</p>
+<!--wow-data-delay="0.4s" wow-data-duration="0.9s"-->
+				</div>
+			</div>
+		</div>
+	</div>	
+
+<nav id='nav_bar' style="margin-bottom: 0" class="navbar navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="javascript:;" class="button-home">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle button-about" data-toggle="dropdown" href="javascript:;">About Me <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Work Experience</a></li>
+            <li><a href="#">Fellowships</a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:;" class="button-teaching">Teaching</a></li>
+        <li><a href="javascript:;" class="button-member">Memberships</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		
+<div class="marker normal" id="home">
+     <div id="leftcol"><img src="img/mhb.png" class="img-responsive" alt="Cinque Terre" width="
+        238px" height:auto></div>
+ <div id="rightcol"> <b>Dr. M.H.BALA SUBRAHMANYA</b><br/> 
+        Professor <br/> 
+        Department of Management Studies<br/> 
+        Indian Institute of Science<br/> 
+        Bangalore – 560012, INDIA<br/> 
+        Phone : +91-80-22933266 (O)<br/> 
+        Fax : +91-80-23604534 <br/>
+        E-mail: bala@mgmt.iisc.ernet.in<br/>
+        mungilabala@gmail.com<br/></div>
+ <div id="fullcol">
+ <p align="center" class="heading4" ></br> RESEARCH INTERESTS:</p>
+
+         <p align="center">Primary research interest is confined to <b>Industrial Economics</b> covering the wide spectrum of industry: start-ups, micro firms, SMEs, large scale enterprises visit website including TNCs, their structure and growth, industrial R&D and technological innovations, entrepreneurship, industrial energy consumption pattern and efficiency, industrial subcontracting, productivity and industrial performance.</p></div>
+</div>
+
+
+
+<section class="marker" id="about" style="display: none;">
+<p>about me</p>
+</section>
+
+<section class="marker" id="teaching" style="display: none;">  
+<p>Teaching</p>
+</section>
+
+<section class="marker" id="member" style="display: none;">
+<p>Member</p>
+</section>
+
+<!--footer-->
+<section class="footer" id="footer">
+	<div class="container">
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+		</ul>
+		<p1>Website developed by Akash & Rishabh</p1>
+		<p>
+			&copy; 2016 All rights reserved<br>
+		</p>
+	</div>
+	</section>
+
+<script src="js/jquery.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/fixedtop.js"></script>
+<script src="js/button-show.js"></script>
+
+</body>
+</html>
